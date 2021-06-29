@@ -15,7 +15,6 @@ namespace pipelines_dotnet_core
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
-            echo "hello from feature branch";
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
